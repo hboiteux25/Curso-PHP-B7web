@@ -48,3 +48,24 @@ while ($numero <= 10) {
  echo "N: ".$numero."<br/>";
  $numero = $numero +1;
  }
+
+
+ //For
+
+ for($i=0;$i<10;$i++){
+  echo "N: ".$i."<br/>";
+
+ }
+
+ //ForEach - Exlcusivo para trabalhar com Arrays
+ $ingredientes = [
+   'acucar',
+   'farinha de trigo',
+   'ovo',
+   'leite',
+   'fermento em po'
+  ];
+
+ foreach($ingredientes as $ingrediente){
+  echo "Item: ".$ingrediente."<br/>";
+ }
