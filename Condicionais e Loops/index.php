@@ -69,3 +69,24 @@ while ($numero <= 10) {
  foreach($ingredientes as $ingrediente){
   echo "Item: ".$ingrediente."<br/>";
  }
+
+ // Componentes de um computador
+$lista = ['Placa-mãe', 'Memória ram', 'SSD', 'HD', 'Monitor'];
+
+foreach ($lista as $item) {
+ echo $item . PHP_EOL;
+}
+
+
+for ($i =0;$i<20; $i++ ){
+  for ($j=0; $j<=15; $j++) { 
+    echo "-";
+  }
+  echo "<br>";
+}
+
+
+while ($numero <= 10) {
+  echo "N: ".$numero."<br/>";
+  $numero = $numero +1;
+  }
